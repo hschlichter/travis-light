@@ -1,4 +1,7 @@
 {
+	"lifx": {
+		"bulp_name": ""
+	},
 	"github": {
 		"oauth_token": "",
 		"organization": "",

@@ -12,6 +12,11 @@ lifx.on('bulb', function (bulb) {
 		throw new Error('No bulb!');
 	}
 
+	if (bulb.name !== config['lifx']['bulp_name']) {
+		console.log('This wasnt the bulp we were looking for!');
+		return;
+	}
+
 	lifx.lightsColour(0x0000, 0x0000, 0x0000, 0x0000, 0x0000, bulb);
 
 	co(function *() {
