@@ -1,0 +1,19 @@
+{
+  "name": "travis-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.5.4",
+    "co-request": "^0.2.1",
+    "co-wait": "0.0.0",
+    "immutable": "^3.7.4",
+    "lifx": "^0.3.1",
+    "request": "^2.58.0"
+  }
+}
