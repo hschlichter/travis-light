@@ -1,11 +1,15 @@
 {
-	"lifx": {
-		"bulp_name": ""
-	},
-	"github": {
-		"oauth_token": "",
-		"organization": "",
-		"repository": "",
-		"branch": ""
-	}
+	"bulbs": [
+		{
+			"lifx": {
+				"bulb_name": ""
+			},
+			"github": {
+				"oauth_token": "",
+				"organization": "",
+				"repository": "",
+				"branch": ""
+			}
+		}
+	]
 }
