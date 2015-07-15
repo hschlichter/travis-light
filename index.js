@@ -17,10 +17,6 @@ lifx.on('bulb', function (bulb) {
 			return;
 		}
 
-		console.log(bulb);
-
-		console.log('Found bulb - ' + bulb.name);
-
 		lifx.lightsColour(0x0000, 0x0000, 0x0000, 0x0000, 0x0000, bulb);
 
 		co(function *() {
@@ -34,7 +30,7 @@ lifx.on('bulb', function (bulb) {
 
 				if (travis.isBranchOk(branch)) {
 					console.log('loop - ok - ' + bulb.name);
-					lifx.lightsColour(0x5555, 0xffff, 0x5555, 0x0dac, 0x0000, bulb);
+					lifx.lightsColour(0x5555, 0xffff, 0x1111, 0x0dac, 0x0000, bulb);
 				} else if (travis.isBranchFailed(branch)) {
 					console.log('loop - failed - ' + bulb.name);
 					lifx.lightsColour(0xffff, 0xffff, 0x5555, 0x0dac, 0x0000, bulb);
